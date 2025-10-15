@@ -30,7 +30,7 @@ It uses **Python, Flask, and spaCy** to process questions and respond conversati
    git clone https://github.com/<your-username>/resubot.git
    cd resubot
 2. Create and activate a virtual environment:
-   python -m venv venv
+     ```python -m venv venv
    source venv/Scripts/activate  # or venv/bin/activate for Mac/Linux
 3. Install dependencies:
-   pip install -r infra/requirements.txt
+    ```pip install -r infra/requirements.txt
