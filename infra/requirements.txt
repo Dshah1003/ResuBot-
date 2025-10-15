@@ -1,0 +1,193 @@
+[
+  {
+    "intent": "greeting",
+    "examples": [
+      "Hello",
+      "Hi",
+      "Hey",
+      "Hey there",
+      "Hi bot",
+      "Hello ResuBot"
+    ],
+    "response": "👋 Hello! I’m Super D-Bot — your interactive guide to Drashti Shah’s resume. Ask me anything about her skills, projects, experience, or campus involvement!"
+  },
+  {
+    "intent": "fallback",
+    "examples": [
+      "Tell me a joke",
+      "What’s the weather?",
+      "Do you know her hobbies?",
+      "I don’t understand",
+      "Random question"
+    ],
+    "response": "Hmm 🤔 I don’t have info about that yet, but I can tell you about Drashti’s skills, projects, experience, or campus activities. What would you like to know?"
+  },
+  {
+    "intent": "smalltalk_about_bot",
+    "examples": [
+      "Who are you?",
+      "What can you do?",
+      "Tell me about yourself",
+      "What are you?"
+    ],
+    "response": "I’m Super D-Bot 🤖 — an AI chatbot built to represent Drashti Shah’s professional profile. I can share details about her projects, experience, skills, and more!"
+  },
+  {
+    "intent": "smalltalk_thanks",
+    "examples": [
+      "Thanks",
+      "Thank you",
+      "That helped",
+      "Appreciate it"
+    ],
+    "response": "You’re welcome! 😊 Feel free to ask me anything else about Drashti’s work or projects."
+  },
+  {
+    "intent": "ask_university",
+    "examples": [
+      "What university does Drashti go to?",
+      "Where does Drashti study?",
+      "Which college is she attending?"
+    ],
+    "response": "Drashti Shah studies at the University of Texas at Dallas, pursuing a Bachelor of Science in Computer Science."
+  },
+  {
+    "intent": "ask_major",
+    "examples": [
+      "What is Drashti’s major?",
+      "What field is her degree in?",
+      "What does she study?"
+    ],
+    "response": "Drashti’s major is Computer Science."
+  },
+  {
+    "intent": "ask_graduation",
+    "examples": [
+      "When will Drashti graduate?",
+      "What is her expected graduation date?",
+      "When does she finish college?"
+    ],
+    "response": "Her expected graduation date is May 2027."
+  },
+  {
+    "intent": "ask_gpa",
+    "examples": [
+      "What is Drashti’s GPA?",
+      "How is her academic performance?",
+      "Tell me about her grades"
+    ],
+    "response": "Her GPA isn’t listed, but she maintains strong academic performance in Computer Science courses."
+  },
+  {
+    "intent": "ask_experience",
+    "examples": [
+      "What is Drashti’s work experience?",
+      "Where has she worked?",
+      "What experience does she have?"
+    ],
+    "response": "Drashti is an Undergraduate Research Assistant at the University of Texas at Dallas, developing and maintaining 2D/3D pose estimation pipelines for behavioral analysis using Lightning Pose and Anipose."
+  },
+  {
+    "intent": "explain_experience",
+    "examples": [
+      "Explain her work experience",
+      "Describe her current role",
+      "What does she do as a research assistant?"
+    ],
+    "response": "Drashti analyzes behavioral patterns in Parkinsonian versus healthy mice using deep learning tools, computer vision, and clustering techniques to identify subtle motor differences."
+  },
+  {
+    "intent": "ask_skills",
+    "examples": [
+      "What are Drashti’s technical skills?",
+      "What programming languages does she know?",
+      "What frameworks or tools does she use?"
+    ],
+    "response": "Drashti is skilled in Python, Java, C++, JavaScript, HTML/CSS, and SQL. She uses React, Node.js, TensorFlow, PyTorch, Scikit-learn, Streamlit, Flask, and OpenCV, and works with Git, AWS SageMaker, Google Cloud, and VS Code."
+  },
+  {
+    "intent": "ask_projects",
+    "examples": [
+      "What projects has Drashti worked on?",
+      "List her main projects",
+      "Tell me her portfolio projects"
+    ],
+    "response": "Drashti has worked on ResuBot, NAF Alumni Tracking System, and StudyBuddy — combining AI, web development, and data management to solve real-world problems."
+  },
+  {
+    "intent": "ask_resubot",
+    "examples": [
+      "What is ResuBot?",
+      "Describe the ResuBot project",
+      "Explain the purpose of ResuBot"
+    ],
+    "response": "ResuBot is an AI chatbot that showcases Drashti’s skills, projects, and experience. It uses Python, Flask, spaCy, MongoDB, and AWS SageMaker for natural-language understanding and cloud deployment."
+  },
+  {
+    "intent": "ask_resubot_tech",
+    "examples": [
+      "What technologies were used in ResuBot?",
+      "Tell me the tech stack for ResuBot"
+    ],
+    "response": "ResuBot uses Python, Flask, spaCy, MongoDB, Scikit-learn, and AWS SageMaker."
+  },
+  {
+    "intent": "ask_naf",
+    "examples": [
+      "What is the NAF project?",
+      "Describe the NAF Alumni Tracking System",
+      "Explain what she did in the NAF project"
+    ],
+    "response": "The NAF Alumni Tracking System reconnects missing alumni records using a backend built with Node.js, Prisma, PostgreSQL, Docker, and Puppeteer. Drashti refactored backend architecture and built web-scraping pipelines for data verification."
+  },
+  {
+    "intent": "ask_naf_tech",
+    "examples": [
+      "What technologies were used in the NAF project?",
+      "Tell me the tech stack for the NAF project"
+    ],
+    "response": "The NAF Alumni Tracking System uses Node.js, Prisma, PostgreSQL, Docker, and Puppeteer."
+  },
+  {
+    "intent": "ask_studybuddy",
+    "examples": [
+      "What is the StudyBuddy project?",
+      "Describe StudyBuddy",
+      "Explain the goal of StudyBuddy"
+    ],
+    "response": "StudyBuddy is a full-stack AI web app that helps students manage assignments and study schedules. It integrates Firebase authentication, Google Calendar sync, and an AI assistant for personalized task management."
+  },
+  {
+    "intent": "ask_studybuddy_tech",
+    "examples": [
+      "What technologies were used in StudyBuddy?",
+      "Tell me the tech stack for StudyBuddy"
+    ],
+    "response": "StudyBuddy uses Figma, React.js, Next.js, Firebase, AWS, and the Gemini API."
+  },
+  {
+    "intent": "ask_extracurriculars",
+    "examples": [
+      "What are Drashti’s extracurricular activities?",
+      "What organizations is she part of?",
+      "List her campus involvements"
+    ],
+    "response": "Drashti is involved in the Artificial Intelligence Society (Mentor), Women Mentoring Women in Engineering (MTM), and the Society of Women Engineers as Chair of the Ladies in Tech Mentoring Program."
+  },
+  {
+    "intent": "ask_leadership",
+    "examples": [
+      "What are Drashti’s leadership roles?",
+      "Has she held leadership positions?"
+    ],
+    "response": "Drashti leads the Ladies in Tech Mentoring Program under SWE, manages mentor-mentee engagement for WMWE, and mentors a team of five in the Artificial Intelligence Society."
+  },
+  {
+    "intent": "ask_projects_matrix",
+    "examples": [
+      "Which projects used a matrix?",
+      "Where were matrices used in her projects?"
+    ],
+    "response": "While no project explicitly involves matrix computations, both ResuBot and the NAF Alumni Tracking System handle structured data and relational schemas that resemble matrix-like structures."
+  }
+]
